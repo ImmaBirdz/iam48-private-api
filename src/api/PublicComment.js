@@ -10,6 +10,7 @@ export default class PublicComment {
                 baseURL: [
                     _public.$http.defaults.baseURL,
                     'comment',
+                    'content',
                 ].join('/'),
             }),
         })
